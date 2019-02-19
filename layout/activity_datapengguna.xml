@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".datapengguna"
+    android:padding="12dp"
+    android:stretchColumns="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Selamat Datang di Payment BarcodeQR"
+        android:padding="15dp"/>
+
+    <TableRow
+        android:background="#22ff">
+
+        <TextView
+            android:text="id :"
+            android:width="150dp"
+            android:padding="15dip">
+
+        </TextView>
+        <TextView
+            android:id="@+id/idvalue"
+            android:layout_column="1"
+            android:padding="15dip" />
+    </TableRow>
+
+    <TableRow
+        android:background="#22ff">
+
+        <TextView
+            android:text="Nama :"
+            android:width="150dp"
+            android:padding="15dip">
+
+        </TextView>
+        <EditText
+            android:id="@+id/namavalue"
+            android:layout_column="1"
+            android:padding="15dip" />
+    </TableRow>
+
+    <TableRow
+        android:background="#22ff">
+
+        <TextView
+            android:text="Alamat :"
+            android:width="150dp"
+            android:padding="15dip">
+
+        </TextView>
+        <EditText
+            android:id="@+id/alamatvalue"
+            android:layout_column="1"
+            android:padding="15dip" />
+    </TableRow>
+
+    <TableRow
+        android:background="#22ff">
+        <TextView
+            android:text="jenis_kelami"
+            android:width="150dp"
+            android:padding="15dip" />
+        <EditText
+            android:id="@+id/jeniskelaminvalue"
+            android:layout_column="1"
+            android:padding="15dip" />
+    </TableRow>
+
+    <TableRow
+        android:background="#22ff">
+        <TextView
+            android:text="Username"
+            android:width="150dp"
+            android:padding="15dip" />
+        <EditText
+            android:id="@+id/usernamevalue"
+            android:layout_column="1"
+            android:padding="15dip" />
+    </TableRow>
+
+    <TableRow
+        android:background="#22ff">
+        <TextView
+            android:text="Password"
+            android:width="150dp"
+            android:padding="15dip" />
+        <EditText
+            android:id="@+id/passwordvalue"
+            android:layout_column="1"
+            android:padding="15dip" />
+    </TableRow>
+
+    <TableRow
+        android:background="#22ff">
+        <TextView
+            android:text="Saldo"
+            android:width="150dp"
+            android:padding="15dip" />
+        <TextView
+            android:id="@+id/saldovalue"
+            android:layout_column="1"
+            android:padding="15dip" />
+    </TableRow>
+
+    <TableRow
+        android:background="#22ff">
+        <TextView
+            android:text="status"
+            android:width="150dp"
+            android:padding="15dip" />
+        <EditText
+            android:id="@+id/statusvalue"
+            android:layout_column="1"
+            android:padding="15dip" />
+    </TableRow>
+
+    <Button
+        android:id="@+id/edit"
+        android:text="Edit"
+        android:height="15dp"
+        android:width="100dp"
+        android:padding="15dip"/>
+
+</TableLayout>

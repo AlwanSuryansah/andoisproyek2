@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".historypelanggan">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Selamat Datang di Payment BarcodeQR"
+        android:padding="15dp"/>
+
+    <TableRow
+        android:background="#22ff">
+        <TextView
+            android:text="id transaksi"
+            android:padding="3dip" />
+        <TextView
+            android:layout_column="1"
+            android:text="jumlah tranaksi"
+            android:padding="3dip" />
+        <TextView
+            android:layout_column="1"
+            android:text="Id Pelanggan"
+            android:padding="3dip" />
+        <TextView
+            android:text="Id toko"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow android:background="#ffff00">
+        <TextView
+            android:id="@+id/id_transaksi1"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/jumlah_transaksi1"
+            android:layout_column="1"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/id_pelanggan2"
+            android:layout_column="1"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/id_toko2"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+
+
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+
+
+</TableLayout>

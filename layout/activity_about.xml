@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Selamat Datang di Payment BarcodeQR"
+        android:padding="15dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:layout_height="match_parent"
+            android:text="      Kehadiran sistem pembayaran yang sarat akan teknologi terus berkembang. Salah satunya, sistem pembayaran dengan teknologi QR Code (Quick Response Code) atau QR Payment yang digadang-gadang bakal menjadi cara bayar utama, karena lebih praktif dan efisien.
+            payment (TOP) Term of payment adalah ketentuan pembayaran yang dibuat oleh supplier/vendor kepada pelanggan. Atau bisa juga dikatakan term of payment adalah ketentuan cara pembayaran yang dibuat oleh penjual kepada pembelinya
+            QR Code adalah singkatan dari Quick Response Code. Kode 2-D ini dapat menyimpan banyak informasi. Sering digunakan sebagai bagian dari advertising, marketing, dan jejaring sosial, sistem ini bisa dipakai oleh ponsel yang memiliki aplikasi pembaca kode QR dengan akses internet."/>
+
+    </ScrollView>
+
+</LinearLayout>

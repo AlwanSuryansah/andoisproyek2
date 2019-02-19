@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".transaksi"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Form Transaksi"
+        android:padding="15dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Nominal :"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/nominal"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:hint="Nominal"
+            android:inputType="number"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp">
+    <Button
+        android:id="@+id/enter"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:text="Enter"/>
+
+        <Button
+            android:id="@+id/batal"
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:text="Batal"/>
+
+    </LinearLayout>
+
+</LinearLayout>

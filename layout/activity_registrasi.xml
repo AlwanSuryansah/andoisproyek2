@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".registrasi"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Form Registrasi "
+        android:padding="15dp"/>
+
+    <EditText
+        android:id="@+id/id_pelanggan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:drawablePadding="12dp"
+        android:padding="8dp"
+        android:hint="id pelanggan"
+        android:maxLines="1"
+        android:layout_marginTop="4dp"/>
+
+    <EditText
+        android:id="@+id/nama_pelanggan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:drawablePadding="12dp"
+        android:padding="8dp"
+        android:hint="Nama Pengguna"
+        android:maxLines="1"
+        android:layout_marginTop="4dp"/>
+
+    <EditText
+        android:id="@+id/alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:drawablePadding="12dp"
+        android:padding="8dp"
+        android:hint="Alamat"
+        android:maxLines="1"
+        android:layout_marginTop="4dp"/>
+
+    <EditText
+        android:id="@+id/jeniskelamin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:drawablePadding="12dp"
+        android:padding="8dp"
+        android:hint="Jenis Kelamin"
+        android:maxLines="1"
+        android:layout_marginTop="4dp"/>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:drawablePadding="12dp"
+        android:padding="8dp"
+        android:hint="Username"
+        android:maxLines="1"
+        android:layout_marginTop="4dp"/>
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:drawablePadding="12dp"
+        android:padding="8dp"
+        android:hint="Password"
+        android:maxLines="1"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/saldopelanggan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:drawablePadding="12dp"
+        android:padding="8dp"
+        android:hint="Saldo Pelanggan"
+        android:text="0"
+        android:maxLines="1"
+        android:layout_marginTop="4dp"/>
+
+    <EditText
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:drawablePadding="12dp"
+        android:padding="8dp"
+        android:hint="Status"
+        android:maxLines="1"
+        android:layout_marginTop="4dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/buttonregis"
+            android:layout_width="190dp"
+            android:layout_height="match_parent"
+            android:text="kirim"/>
+
+        <Button
+            android:layout_width="190dp"
+            android:layout_height="match_parent"
+            android:text="batal"/>
+    </LinearLayout>
+
+</LinearLayout>
